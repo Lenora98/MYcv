@@ -31,13 +31,15 @@ a,
 nav,
 .nav-links {
   display: flex;
+  
+
 }
 
 nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
-}
+  }
 
 .nav-links {
   gap: 2rem;
@@ -70,11 +72,13 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+ 
 }
 
 .hamburger-menu {
   position: relative;
   display: inline-block;
+
 }
 
 .hamburger-icon {
@@ -352,6 +356,15 @@ article {
 article .icon {
   cursor: default;
 }
+
+#certificate{
+  position: relative;
+}
+.space{
+  height: 26vh;
+  margin: 0 1rem;
+}
+
 
 /* PROJECTS SECTION */
 
